@@ -1,6 +1,7 @@
 # Node
 mobile/npm-debug.log
 mobile/node_modules/
+api/node_modules/
 
 # Cordova
 mobile/platforms/
