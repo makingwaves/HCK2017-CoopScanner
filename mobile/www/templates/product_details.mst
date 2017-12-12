@@ -1,0 +1,8 @@
+<div class="product-detail">
+    <div class="product-image-wrapper">
+        <img class="product-image" src="{{image_url}}" alt="Product - {{name}}" />
+    </div>
+    <div class="product-info">
+        Name: {{name}}
+    </div>
+</div>

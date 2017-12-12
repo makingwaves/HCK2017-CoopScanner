@@ -9,22 +9,38 @@ html, body, main {
 }
 
 main {
+    height: 80%;
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+header, footer {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
-    max-height: 20%;
     background-color: #00aa46;
+}
+
+.header-content{
+    height: 70%;
+}
+
+.footer-content {
+    font-size: 20px;
+    color: white;
 }
 
 .StartScan-button--wrapper {
     background: #00aa46;
     width: 200px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,5 +54,30 @@ footer {
 
 #results {
     color: white;
-
 }
+
+.product-image--wrapper {
+    height: 75%;
+    width: 100%;
+    text-align: center;
+}
+
+.product-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.product-info {
+    color: #00aa46;
+    font-size: 32px;
+    font-family: Akkurat,helvetica,arial; 
+}
+
