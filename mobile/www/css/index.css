@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    max-height: 20%;
+    background-color: #00aa46;
+}
+
+.StartScan-button--wrapper {
+    background: #00aa46;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StartScan-button--label {
+    color: white;
+    font-size: 32px;
+    font-family: Akkurat,helvetica,arial;
+}
+
+#results {
+    color: white;
+
+}
